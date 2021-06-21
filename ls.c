@@ -8,7 +8,7 @@
 int main(int argc, char **argv)
 {
   char *target_path;
-  if (argc > 2)
+  if (argc > 1)
     target_path = argv[1];
   else
     target_path = ".";
